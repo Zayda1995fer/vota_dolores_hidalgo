@@ -133,18 +133,18 @@ Tres vecinos votan entre tres obras reales y uno de ellos intenta votar otra vez
 
 ## Resumen de pruebas
 
-| # | Ronda | Prueba | Estado |
-|---|-------|--------|--------|
-| 1 | 1 | Voto válido incrementa el contador | ☐ |
-| 2 | 2 | Opción inexistente regresa `opcionInvalida` | ☐ |
-| 3 | 3 | Un usuario no puede votar dos veces | ☐ |
-| 4 | 4 | Porcentajes correctos | ☐ |
-| 5 | 4 | Sin votos, todos los porcentajes son 0 | ☐ |
-| 6 | 5 | El ganador es la opción con más votos | ☐ |
-| 7 | 6 | Empate regresa más de una opción | ☐ |
-| 8 | 7 | No se puede votar tras el cierre | ☐ |
-| 9 | 7 | Votación abierta registra el voto | ☐ |
-| 10 | Integración | Simulación completa del plebiscito | ☐ |
+| # | Ronda | Prueba | 
+|---|-------|--------|
+| 1 | 1 | Voto válido incrementa el contador | 
+| 2 | 2 | Opción inexistente regresa `opcionInvalida` | 
+| 3 | 3 | Un usuario no puede votar dos veces | 
+| 4 | 4 | Porcentajes correctos | 
+| 5 | 4 | Sin votos, todos los porcentajes son 0 | 
+| 6 | 5 | El ganador es la opción con más votos | 
+| 7 | 6 | Empate regresa más de una opción | 
+| 8 | 7 | No se puede votar tras el cierre | 
+| 9 | 7 | Votación abierta registra el voto | 
+| 10 | Integración | Simulación completa del plebiscito | 
 
 **Resultado final de `flutter test`:**
 <img width="1012" height="137" alt="paso 5" src="https://github.com/user-attachments/assets/aa4bee56-34d7-4fa1-a45f-39f7b9f9ebd9" />
